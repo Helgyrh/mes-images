@@ -2,148 +2,169 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mes images</title>
+  <title>Galerie Borealis</title>
 
   <style>
     body{
-      font-family:Arial;
-      padding:20px;
       background:#111;
       color:white;
+      font-family:Arial;
+      padding:30px;
+    }
+
+    h1{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:42px;
+    }
+
+    h2{
+      margin-top:60px;
+      margin-bottom:25px;
+      border-bottom:2px solid #444;
+      padding-bottom:10px;
     }
 
     .gallery{
       display:flex;
       flex-wrap:wrap;
       gap:20px;
+      justify-content:center;
     }
 
     .card{
       background:#222;
-      padding:10px;
-      border-radius:10px;
-      width:300px;
+      padding:15px;
+      border-radius:15px;
+      width:280px;
+      box-shadow:0 0 10px rgba(0,0,0,0.5);
     }
 
-    img{
+    .card img{
       width:100%;
       border-radius:10px;
     }
 
-    h2{
-      font-size:16px;
-      margin-bottom:10px;
+    .card h3{
+      text-align:center;
+      margin-top:15px;
     }
   </style>
 </head>
+
 <body>
 
-<h1>Galerie GitHub Pages 🚀</h1>
+<h1>Galerie Borealis ⚙️</h1>
+
+<!-- ========================= -->
+<!-- SECTION BOREALIS -->
+<!-- ========================= -->
+
+<h2>Borealis</h2>
 
 <div class="gallery">
 
   <div class="card">
-    <h2>IMG_GREN</h2>
-    <img id="img1">
+    <img src="bandeau-borealis.jpg">
+    <h3>Bandeau Borealis</h3>
   </div>
 
   <div class="card">
-    <h2>IMG_MED</h2>
-    <img id="img2">
+    <img src="commissaire.jpg">
+    <h3>Commissaire</h3>
   </div>
 
   <div class="card">
-    <h2>IMG_SNI</h2>
-    <img id="img3">
+    <img src="executeur.jpg">
+    <h3>Executeur</h3>
   </div>
 
   <div class="card">
-    <h2>IMG_FUS</h2>
-    <img id="img4">
+    <img src="pyrojecteur.jpg">
+    <h3>Pyrojecteur</h3>
   </div>
 
   <div class="card">
-    <h2>IMG_LF</h2>
-    <img id="img5">
+    <img src="transmetteur.jpg">
+    <h3>Transmetteur</h3>
   </div>
 
   <div class="card">
-    <h2>IMG_SGT</h2>
-    <img id="img6">
-  </div>
-
-  <div class="card">
-    <h2>IMG_FORET</h2>
-    <img id="img7">
-  </div>
-
-  <div class="card">
-    <h2>IMG_COMBATTANT</h2>
-    <img id="img8">
-  </div>
-
-  <div class="card">
-    <h2>IMG_LIEUTENANT</h2>
-    <img id="img9">
-  </div>
-
-  <div class="card">
-    <h2>IMG_MITRAILLEUR</h2>
-    <img id="img10">
-  </div>
-
-  <div class="card">
-    <h2>IMG_PRETRE</h2>
-    <img id="img11">
-  </div>
-
-  <div class="card">
-    <h2>IMG_SOLDAT</h2>
-    <img id="img12">
-  </div>
-
-  <div class="card">
-    <h2>IMG_BANDEAU_GALLIA</h2>
-    <img id="img13">
-  </div>
-
-  <div class="card">
-    <h2>IMG_BANDEAU_BRIT</h2>
-    <img id="img14">
-  </div>
-
-  <div class="card">
-    <h2>IMG_STEAMPUNK</h2>
-    <img id="img15">
-  </div>
-
-  <div class="card">
-    <h2>IMG_SPACESHIP</h2>
-    <img id="img16">
+    <img src="voltigeur.jpg">
+    <h3>Voltigeur</h3>
   </div>
 
 </div>
 
-<script src="data-images.js"></script>
+<!-- ========================= -->
+<!-- SECTION ARMÉE -->
+<!-- ========================= -->
 
-<script>
-img1.src = IMG_GREN;
-img2.src = IMG_MED;
-img3.src = IMG_SNI;
-img4.src = IMG_FUS;
-img5.src = IMG_LF;
-img6.src = IMG_SGT;
-img7.src = IMG_FORET;
-img8.src = IMG_COMBATTANT;
-img9.src = IMG_LIEUTENANT;
-img10.src = IMG_MITRAILLEUR;
-img11.src = IMG_PRETRE;
-img12.src = IMG_SOLDAT;
-img13.src = IMG_BANDEAU_GALLIA;
-img14.src = IMG_BANDEAU_BRIT;
-img15.src = IMG_STEAMPUNK;
-img16.src = IMG_SPACESHIP;
-</script>
+<h2>Armée Impériale</h2>
+
+<div class="gallery">
+
+  <div class="card">
+    <img src="bandeau-armee.png">
+    <h3>Bandeau Armée</h3>
+  </div>
+
+  <div class="card">
+    <img src="fusillier.jpg">
+    <h3>Fusillier</h3>
+  </div>
+
+  <div class="card">
+    <img src="grenadier.png">
+    <h3>Grenadier</h3>
+  </div>
+
+  <div class="card">
+    <img src="lance-flamme.jpg">
+    <h3>Lance-flamme</h3>
+  </div>
+
+  <div class="card">
+    <img src="medecin.png">
+    <h3>Médecin</h3>
+  </div>
+
+  <div class="card">
+    <img src="sergent.jpg">
+    <h3>Sergent</h3>
+  </div>
+
+  <div class="card">
+    <img src="sniper.png">
+    <h3>Sniper</h3>
+  </div>
+
+  <div class="card">
+    <img src="combattant.png">
+    <h3>Combattant</h3>
+  </div>
+
+  <div class="card">
+    <img src="lieutenant.png">
+    <h3>Lieutenant</h3>
+  </div>
+
+  <div class="card">
+    <img src="mitrailleur-lourd.png">
+    <h3>Mitrailleur lourd</h3>
+  </div>
+
+  <div class="card">
+    <img src="pretre.png">
+    <h3>Prêtre</h3>
+  </div>
+
+  <div class="card">
+    <img src="soldat.png">
+    <h3>Soldat</h3>
+  </div>
+
+</div>
 
 </body>
 </html>
