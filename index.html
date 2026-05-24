@@ -3,17 +3,146 @@
 <head>
   <meta charset="UTF-8">
   <title>Mes images</title>
+
+  <style>
+    body{
+      font-family:Arial;
+      padding:20px;
+      background:#111;
+      color:white;
+    }
+
+    .gallery{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .card{
+      background:#222;
+      padding:10px;
+      border-radius:10px;
+      width:300px;
+    }
+
+    img{
+      width:100%;
+      border-radius:10px;
+    }
+
+    h2{
+      font-size:16px;
+      margin-bottom:10px;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Mes images</h1>
+<h1>Galerie GitHub Pages 🚀</h1>
 
-<img id="img1" style="max-width:500px;">
+<div class="gallery">
+
+  <div class="card">
+    <h2>IMG_GREN</h2>
+    <img id="img1">
+  </div>
+
+  <div class="card">
+    <h2>IMG_MED</h2>
+    <img id="img2">
+  </div>
+
+  <div class="card">
+    <h2>IMG_SNI</h2>
+    <img id="img3">
+  </div>
+
+  <div class="card">
+    <h2>IMG_FUS</h2>
+    <img id="img4">
+  </div>
+
+  <div class="card">
+    <h2>IMG_LF</h2>
+    <img id="img5">
+  </div>
+
+  <div class="card">
+    <h2>IMG_SGT</h2>
+    <img id="img6">
+  </div>
+
+  <div class="card">
+    <h2>IMG_FORET</h2>
+    <img id="img7">
+  </div>
+
+  <div class="card">
+    <h2>IMG_COMBATTANT</h2>
+    <img id="img8">
+  </div>
+
+  <div class="card">
+    <h2>IMG_LIEUTENANT</h2>
+    <img id="img9">
+  </div>
+
+  <div class="card">
+    <h2>IMG_MITRAILLEUR</h2>
+    <img id="img10">
+  </div>
+
+  <div class="card">
+    <h2>IMG_PRETRE</h2>
+    <img id="img11">
+  </div>
+
+  <div class="card">
+    <h2>IMG_SOLDAT</h2>
+    <img id="img12">
+  </div>
+
+  <div class="card">
+    <h2>IMG_BANDEAU_GALLIA</h2>
+    <img id="img13">
+  </div>
+
+  <div class="card">
+    <h2>IMG_BANDEAU_BRIT</h2>
+    <img id="img14">
+  </div>
+
+  <div class="card">
+    <h2>IMG_STEAMPUNK</h2>
+    <img id="img15">
+  </div>
+
+  <div class="card">
+    <h2>IMG_SPACESHIP</h2>
+    <img id="img16">
+  </div>
+
+</div>
 
 <script src="data-images.js"></script>
 
 <script>
-document.getElementById("img1").src = IMG_GREN;
+img1.src = IMG_GREN;
+img2.src = IMG_MED;
+img3.src = IMG_SNI;
+img4.src = IMG_FUS;
+img5.src = IMG_LF;
+img6.src = IMG_SGT;
+img7.src = IMG_FORET;
+img8.src = IMG_COMBATTANT;
+img9.src = IMG_LIEUTENANT;
+img10.src = IMG_MITRAILLEUR;
+img11.src = IMG_PRETRE;
+img12.src = IMG_SOLDAT;
+img13.src = IMG_BANDEAU_GALLIA;
+img14.src = IMG_BANDEAU_BRIT;
+img15.src = IMG_STEAMPUNK;
+img16.src = IMG_SPACESHIP;
 </script>
 
 </body>
